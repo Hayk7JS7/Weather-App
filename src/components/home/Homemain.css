@@ -1,0 +1,13 @@
+.home-main{
+    margin: 6.35rem;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.name-clock{
+    margin-bottom: 1rem;
+    text-align: center;
+    cursor: pointer;
+}

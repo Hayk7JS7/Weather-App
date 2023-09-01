@@ -1,0 +1,33 @@
+.chart-container {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    padding-bottom: 2rem;
+    margin: 2rem auto;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .chart-container {
+      height: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .chart-container {
+      height: 200px;
+    }
+  }  
+
+.clickable_span{
+    cursor: pointer;
+}
+
+.graph {
+    margin: 2rem;
+    text-align: center;
+}
+
+.graph_day {
+    margin: 3.25rem;
+    text-align: center;
+}

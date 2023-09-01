@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    color: white;
+    background: #1184e2;
+  }
+  
+a{
+    color: unset;
+}
+:root{
+    --text-color: rgba(149, 36, 174, 0.815);
+    --second-text-color: green;
+}

@@ -1,0 +1,75 @@
+.modal-single-day-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.additional-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.temperature-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.temperature-measurement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.other-measurements-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.measurement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.my-button {
+  background-color: #8dc63f;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ;
+  margin: 1rem;
+}
+
+.my-button:hover{
+  background-color: #7cb342;
+}
+.button-parent{
+  display: flex;
+  flex-direction: row;
+}
