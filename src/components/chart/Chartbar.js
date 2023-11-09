@@ -10,7 +10,7 @@ Chart.defaults.borderColor = '#00000040'
 
 const ChartBar = () => {
   const {chartArray, displayedChartIndex} = useSelector(state => state.chart)
-  if(chartArray === [])return null;
+  if(chartArray.length === 0) return null
   const chartData = chartArray[displayedChartIndex]
 
   const data = {
